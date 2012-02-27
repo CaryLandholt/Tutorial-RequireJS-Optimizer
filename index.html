@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>RequireJS - Optimizer</title>
+		<meta name="description" content="RequireJS - Optimizer" />
+		<meta name="author" content="Cary Landholt" />
+		<link rel="stylesheet" href="Styles/bootstrap.min.css" />
+		<style>
+			html * {
+				font-size: 100%;
+			}
+
+			.dirty {
+				background-color: orange;
+				color: white;
+			}
+		</style>
+
+		<!--<script
+			data-main="Scripts/main"
+			src="Scripts/libs/require.js"></script>-->
+
+		<!--<script
+			data-main="Scripts/concatenated-modules"
+			src="Scripts/libs/require.js"></script>-->
+
+		<!--<script
+			data-main="Scripts/concatenated-uglified-modules"
+			src="Scripts/libs/require.js"></script>-->
+
+		<!--<script
+			data-main="Scripts/concatenated-uglified-noLicenseComments-modules"
+			src="Scripts/libs/require.js"></script>-->
+
+		<script src="Scripts/scripts.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="content">
+				<div class="hero-unit">
+					<h1>RequireJS - Optimizer</h1>
+					<p>We'll walk through some of the RequireJS <a href="http://requirejs.org/">optimization</a> techniques.</p>
+					<ul>
+						<li>Concatenation</li>
+						<li>Minification</li>
+					</ul>
+				</div>
+				<div class="row">
+					<div class="span6">
+						<form class="form-inline">
+							<p class="well">
+								<label for="FirstName">First Name</label>
+								<input id="FirstName" name="FirstName" type="text" size="25"
+									placeholder="Enter your first name"
+									autofocus="true"
+									autocomplete="off"
+									data-track-dirty="true" />
+							</p>
+						</form>
+					</div>
+					<div class="span6">
+						<footer>
+							<p>Cary Landholt &copy; 2012</p>
+							<p>
+								<a href="https://github.com/CaryLandholt">https://github.com/CaryLandholt</a>
+							</p>
+							<p>
+								<a href="https://twitter.com/CaryLandholt">Twitter @CaryLandholt</a>
+							</p>
+						</footer>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
